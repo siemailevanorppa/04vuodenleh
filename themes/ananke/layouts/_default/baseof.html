@@ -9,7 +9,7 @@
     <title>{{ .Title }} - {{ .Site.Title }}</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
-    <link rel="canonical" href="{{ .Permalink }}" />
+    <link rel="canonical" href="{{ .Permalink }}" itemprop="url" /> 
     {{ $stylesheet := .Site.Data.webpack_assets.app }}
     {{ with $stylesheet.css }}
       <link href="{{ relURL (printf "%s%s" "dist/" .) }}" rel="stylesheet">

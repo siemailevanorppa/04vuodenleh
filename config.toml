@@ -1,4 +1,4 @@
-baseURL = "http://vuodenlehtikuva.fi"
+baseURL = "https://www.vuodenlehtikuvat.fi/"
 languageCode = "fi"
 title = "Vuoden Lehtikuva"
 theme = "ananke"
